@@ -1,0 +1,25 @@
+.user-album-row{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 30px;
+   padding-bottom: 150px;
+   @media (max-width:600px){
+      grid-template-columns: repeat(1, 1fr);
+   }
+}
+.user{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 35px;
+}
+.album-title{
+   color: #fff;
+}
+.user-button{
+   margin: 0;
+}
+
+.user-photo-row{
+   padding-bottom: 150px;
+}

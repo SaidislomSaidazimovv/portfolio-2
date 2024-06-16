@@ -1,0 +1,21 @@
+.user-comment-row{
+   display: grid;
+   grid-gap: 30px;
+   padding-bottom: 150px;
+
+}
+.user-post-row{
+   display: grid;
+   grid-gap: 30px;
+}
+.post-title{
+   color: #fff;
+}
+.post-body{
+   color: rgb(210, 209, 209);
+}
+.post-email{
+   font-size: 24px;
+   margin: 0;
+   color: blueviolet;
+}

@@ -1,0 +1,13 @@
+.user-todo-row {
+   display: grid;
+   grid-gap: 30px;
+   color: #fff;
+   padding-bottom: 150px;
+}
+
+.user {
+   padding: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
